@@ -5,6 +5,6 @@ OABELIB = libopenabe.a
 
 AR = ar
 MAKE = make
-BISON = ${ZROOT}/bin/bison
+BISON = bison
 FLEX = flex
 INSTALL = install

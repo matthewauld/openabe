@@ -207,11 +207,7 @@ function upgrade_bison() {
 # packages needed for Linux/Ubuntu distro
 function main_ubuntu() {
   sudo apt-get update
-  install_package python-pip
 
-  type pip >/dev/null 2>&1 || {
-    fail "Could not find pip. please install it using 'sudo easy_install pip'";
-  }
 
   install_package wget
   install_package autoconf
